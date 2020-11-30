@@ -1,0 +1,14 @@
+{
+    "name": "browser-loader",
+    "version": "1.0.0",
+    "description": "Bundles modules into browser-loadable scripts",
+    "main": "load-module.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "browserify": "^17.0.0"
+    }
+}
