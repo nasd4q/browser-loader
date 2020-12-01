@@ -39,7 +39,7 @@ function getModuleLoadingScript(path, name, ignoredModules) {
                 }
             })
             .bundle((err, src) => {
-                console.log(src.toString());
+                //console.log(src.toString());
                 res(src.toString());
             });
     });
