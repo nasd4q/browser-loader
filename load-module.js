@@ -45,4 +45,4 @@ function getModuleLoadingScript(path, name, ignoredModules) {
     });
 }
 
-module.exports = getModuleLoadingScript;
+module.exports = { getModuleLoadingScript };
